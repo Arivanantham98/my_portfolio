@@ -5,7 +5,6 @@ import Skills from "./skills/Skills";
 import Blogs from "./blogs/Blogs";
 import Footer from "../components/footer/Footer";
 import Top from "./topbutton/Top";
-// import { StyleProvider } from "../contexts/StyleContext";
 import "./Main.css";
 import Contact from "./contact/Contact";
 
