@@ -10,9 +10,9 @@ const illustration = {
 
 const greeting = {
   username: 'Arivanantham Parthipan',
-  title: "Hi all, Arivanantham",
+  title: "Hi all, I'm Arivanantham",
   subTitle: emoji(
-    'A passionate Front End Developer 🚀 having an knowledge of building Web applications with JavaScript / Reactjs, and some other cool libraries and frameworks with animations.'
+    'A passionate Front End Developer having an knowledge of building Web applications with JavaScript / Reactjs, and some other cool libraries and frameworks with animations.'
   ),
   resumeLink:
     '#',
@@ -25,9 +25,9 @@ const socialMediaLinks = {
   github: 'https://github.com/saadpasta',
   linkedin: 'https://www.linkedin.com/in/saadpasta/',
   gmail: 'saadpasta70@gmail.com',
-  gitlab: 'https://gitlab.com/saadpasta',
-  facebook: 'https://www.facebook.com/saad.pasta7',
-  medium: 'https://medium.com/@saadpasta',
+  // gitlab: 'https://gitlab.com/saadpasta',
+  // facebook: 'https://www.facebook.com/saad.pasta7',
+  // medium: 'https://medium.com/@saadpasta',
   stackoverflow: 'https://stackoverflow.com/users/10422806/saad-pasta',
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
@@ -106,6 +106,24 @@ https://fontawesome.com/icons?d=gallery */
   ],
   display: true, // Set false to hide this section, defaults to true
 };
+// Some big projects you have worked on
+
+const bigProjects = {
+  title: 'Big Projects',
+  subtitle: 'SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH',
+  projects: [
+    {
+      image: require('./assets/images/saayaHealthLogo.webp'),
+      link: 'http://saayahealth.com/',
+    },
+    {
+      image: require('./assets/images/nextuLogo.webp'),
+      link: 'http://nextu.se/',
+    },
+  ],
+  display: true, // Set false to hide this section, defaults to true
+};
+
 
 // Blogs Section
 
@@ -148,6 +166,7 @@ export {
   greeting,
   socialMediaLinks,
   skillsSection,
+  bigProjects,
   blogSection,
   contactInfo,
 };

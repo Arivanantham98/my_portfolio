@@ -9,20 +9,22 @@ import "./Main.css";
 import Contact from "./contact/Contact";
 
 export default class Main extends Component {
-  
+ 
   render() {
     return (
-      
       <div>
+       
           <Header />
           <Greeting />
           <Skills />
+          {/* <StartupProject /> */}
           <Blogs />
           <Contact />
           <Footer />
           <Top />
-       
+      
       </div>
     );
   }
 }
+
