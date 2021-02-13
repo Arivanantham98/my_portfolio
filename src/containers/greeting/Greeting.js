@@ -1,16 +1,15 @@
-import React from 'react';
-import { Fade } from 'react-reveal';
-import emoji from 'react-easy-emoji';
-import './Greeting.css';
-import landingPerson from '../../assets/lottie/landingPerson';
-import DisplayLottie from '../../components/displayLottie/DisplayLottie';
-import SocialMedia from '../../components/socialMedia/SocialMedia';
-import Button from '../../components/button/Button';
+import React from "react";
+import { Fade } from "react-reveal";
+import emoji from "react-easy-emoji";
+import "./Greeting.css";
+import landingPerson from "../../assets/lottie/developer.json";
+import DisplayLottie from "../../components/displayLottie/DisplayLottie";
+import SocialMedia from "../../components/socialMedia/SocialMedia";
+import Button from "../../components/button/Button";
 
-import { illustration, greeting } from '../../portfolio';
+import { illustration, greeting } from "../../portfolio";
 
 export default function Greeting() {
-  
   if (!greeting.displayGreeting) {
     return null;
   }
@@ -20,20 +19,12 @@ export default function Greeting() {
         <div className="greeting-main">
           <div className="greeting-text-div">
             <div>
-              <h1
-                className={'greeting-text'}
-              >
-                {' '}
-                {greeting.title}{' '}
-                <span className="wave-emoji">{emoji('👋')}</span>
+              <h1 className={"greeting-text"}>
+                {" "}
+                {greeting.title}{" "}
+                <span className="wave-emoji">{"👋"}</span>
               </h1>
-              <p
-                className={
-                 'greeting-text-p subTitle'
-                }
-              >
-                {greeting.subTitle}
-              </p>
+              <p className={"greeting-text-p subTitle"}>{greeting.subTitle}</p>
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
@@ -46,14 +37,9 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
+            <div className="animation">
               <DisplayLottie animationData={landingPerson} />
-            ) : (
-              <img
-                alt="man sitting on table"
-                src={require('../../assets/images/manOnTable.svg')}
-              ></img>
-            )}
+            </div>
           </div>
         </div>
       </div>

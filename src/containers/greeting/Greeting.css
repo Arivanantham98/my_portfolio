@@ -2,7 +2,7 @@
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 4rem;
+  /* margin-top: 2rem; */
 }
 .greet-main {
   width: 90%;
@@ -33,7 +33,7 @@
 }
 
 .greeting-text {
-  font-size: 70px;
+  font-size: 40px;
   line-height: 1.1;
   color: black !important;
 }
@@ -41,6 +41,11 @@
 .greeting-text-p {
   font-size: 30px;
   line-height: 40px;
+}
+ 
+.animation{
+width: 70%;
+padding-left: 150px;
 }
 
 .greeting-image-div > img {
@@ -54,6 +59,7 @@
   animation-name: wave;
   display: inline-block;
   transform-origin: 70% 70%;
+  background: white;
 }
 
 @keyframes wave {
@@ -105,7 +111,9 @@
   .greeting-main {
     display: block;
   }
-  .greeting-image-div{
-    height: 256px;
+  .animation{
+    width: 350px;
+padding-left: 50px;
+margin-bottom: 0;
   }
 }
