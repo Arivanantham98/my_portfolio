@@ -34,7 +34,6 @@ export default function Contact() {
             </div>
           </div>
           <div className="form">
-          
             <form name="contact-from" data-netlify="true" method="POST">
               <h2 className='dropmail'>Drop a mail!</h2>
               <input
