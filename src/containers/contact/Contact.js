@@ -4,6 +4,8 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {contactInfo } from "../../portfolio";
 import { Fade } from "react-reveal";
 import Contacts from '../../assets/images/newcontact.jpg'
+import { NetlifyForm, Honeypot } from 'react-netlify-forms'
+
 
 export default function Contact() {
   return (
@@ -34,7 +36,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="form">
-            <form name="contact-from" data-netlify="true" method="POST">
+            <NetlifyForm name="contact-from" data-netlify="true" method="POST">
               <h2 className='dropmail'>Drop a mail!</h2>
               <input
                 name="name"
@@ -54,7 +56,7 @@ export default function Contact() {
                 placeholder="Message"
               ></textarea>
               <button type="submit">SUBMIT</button>
-            </form>
+            </NetlifyForm>
           </div>
         </div>
       </div>
