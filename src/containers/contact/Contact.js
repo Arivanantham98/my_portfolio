@@ -36,7 +36,7 @@ export default function Contact() {
             </div>
           </div>
           <div className="form">
-            <NetlifyForm name="contact-from" data-netlify="true" method="POST">
+            <form name="contact-from" action="https://formspree.io/f/xeqppnjb" method="POST">
               <h2 className='dropmail'>Drop a mail!</h2>
               <input
                 name="name"
@@ -56,7 +56,7 @@ export default function Contact() {
                 placeholder="Message"
               ></textarea>
               <button type="submit">SUBMIT</button>
-            </NetlifyForm>
+            </form>
           </div>
         </div>
       </div>
