@@ -23,7 +23,8 @@ const socialMediaLinks = {
   github: "https://github.com/Arivanantham98",
   linkedin: "https://www.linkedin.com/in/arivanantham-parthipan-649665205/",
   gmail: "arivanantham1003@gmail.com",
-  codepen: "https://stackoverflow.com/users/10422806/saad-pasta",
+  codepen: "https://codepen.io/Arivanantham",
+  instagram:"",
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
 };
@@ -34,7 +35,7 @@ const skillsSection = {
   title: "< Skills />",
   subTitle: "CRAZY FRONT END DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    "⚡ {Implemented websites, mobile applications, and landing pages from concept through deployment }",
+    "⚡ {Implemented websites with mobile first approach, and landing pages from concept through deployment }",
     "⚡ {Designed responsive web pages}",
     "⚡ {Implemented website performance optimization}",
     "⚡ {Built single page application with React.js library}",

@@ -13,7 +13,7 @@ p {
   text-align: center;
   align-content: center;
 }
-h1 {
+.project-title{
   margin-bottom: 50px;
 }
 .right-side{

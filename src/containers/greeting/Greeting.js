@@ -1,13 +1,12 @@
 import React from "react";
 import { Fade } from "react-reveal";
-import emoji from "react-easy-emoji";
 import "./Greeting.css";
 import landingPerson from "../../assets/lottie/developer.json";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 
-import { illustration, greeting } from "../../portfolio";
+import {greeting } from "../../portfolio";
 
 export default function Greeting() {
   if (!greeting.displayGreeting) {

@@ -54,8 +54,8 @@
   background-color: #000;
 }
 
-.stack-overflow i {
-  background-color: #f48024;
+.codepen i {
+  background-color: #333;
 }
 
 .instagram i {
@@ -70,7 +70,7 @@
 .linkedin i:hover,
 .facebook i:hover,
 .instagram i:hover,
-.stack-overflow i:hover,
+.codepen i:hover,
 .medium i:hover{
   background-color: black;
 }

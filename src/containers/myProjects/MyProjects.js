@@ -13,7 +13,7 @@ export default function MyProjects() {
   return (
     <Fade left duration={1000}>
       <div className="main" id="projects">
-        <h1>{title}</h1>
+        <h1 className='project-title'>{title}</h1>
         <div className="column">
           <img
             className="project-image"

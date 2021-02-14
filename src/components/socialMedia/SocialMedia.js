@@ -33,9 +33,9 @@ export default function socialMedia() {
       :
       null}
 
-      {socialMediaLinks.gitlab ?
-      <a href={socialMediaLinks.gitlab} className="icon-button gitlab" target="_blank" rel="noopener noreferrer">
-        <i className="fab fa-gitlab"></i>
+      {socialMediaLinks.codepen ?
+      <a href={socialMediaLinks.codepen} className="icon-button codepen" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-codepen"></i>
         <span></span>
       </a>
       :
