@@ -1,10 +1,7 @@
-img {
-  height: 40%;
+.project-image {
   width: 40%;
   border-radius: 5px;
   box-shadow:  0px 0px 17px 0px rgba(0,0,0,0.41);
-  -webkit-box-shadow: 3px 3px 1px #ccc;
-  -moz-box-shadow: 3px 3px 1px #ccc;
   cursor: pointer;
 }
 .column {
@@ -32,7 +29,7 @@ h1 {
   .column {
     flex-direction: column;
   }
-  img {
+  .project-image {
     width: 90%;
   }
 }

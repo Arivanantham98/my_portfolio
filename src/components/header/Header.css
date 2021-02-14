@@ -1,5 +1,5 @@
 /* header */
-
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 .dark-menu {
   background-color: #171c28 !important;
   color: white;
@@ -52,8 +52,8 @@
   line-height: normal;
 }
 .header .logo-name {
-  font-family: "Times New Roman";
-  font-weight: bold;
+  font-family: 'Reggae One';
+  font-weight: 300;
   font-variant-ligatures: no-common-ligatures;
   -webkit-font-variant-ligatures: no-common-ligatures;
   padding: 0 10px;
@@ -73,7 +73,7 @@
   cursor: pointer;
   display: inline-block;
   float: right;
-  padding: 28px 20px;
+  padding: 22px 20px;
   position: relative;
   user-select: none;
 }
@@ -161,9 +161,15 @@
   .header .menu-icon {
     display: none;
   }
+  /* .header .logo {
+    font-size: 5rem;
+  } */
 }
-@media (max-width: 960px) and (min-width: 768px) {
+@media (max-width: 960px) and (min-width: 360px) {
   .header {
     font-size: 12px;
+  }
+  .header .logo {
+    font-size: 1rem;
   }
 }

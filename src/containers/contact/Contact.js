@@ -1,39 +1,30 @@
-import React from 'react';
-import './Contact.css';
-import SocialMedia from '../../components/socialMedia/SocialMedia';
-import { illustration, contactInfo } from '../../portfolio';
-import { Fade } from 'react-reveal';
-import email from '../../assets/lottie/email';
-import DisplayLottie from '../../components/displayLottie/DisplayLottie';
+import React from "react";
+import "./Contact.css";
+import SocialMedia from "../../components/socialMedia/SocialMedia";
+import {contactInfo } from "../../portfolio";
+import { Fade } from "react-reveal";
+import Contacts from '../../assets/images/newcontact.jpg'
 
 export default function Contact() {
-  
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
         <div className="contact-div-main">
           <div className="contact-header">
             <h1 className="heading contact-title">{contactInfo.title}</h1>
-            <p
-              className={
-                'subTitle contact-subtitle'
-              }
-            >
+            <img className='contact-img' src={Contacts} alt='contact'/>
+            <p className={"subTitle contact-subtitle"}>
               {contactInfo.subtitle}
             </p>
-            <div
-              className={
-                'contact-text-div'
-              }
-            >
-              <a className="contact-detail" href={'tel:' + contactInfo.number}>
+            <div className={"contact-text-div"}>
+              <a className="contact-detail" href={"tel:" + contactInfo.number}>
                 {contactInfo.number}
               </a>
               <br />
               <br />
               <a
                 className="contact-detail-email"
-                href={'mailto:' + contactInfo.email_address}
+                href={"mailto:" + contactInfo.email_address}
               >
                 {contactInfo.email_address}
               </a>
@@ -42,15 +33,27 @@ export default function Contact() {
               <SocialMedia />
             </div>
           </div>
-          <div className="contact-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={email} />
-            ) : (
-              <img
-                alt="Man working"
-                src={require('../../assets/images/contactMailDark.svg')}
-              ></img>
-            )}
+          <div className="form">
+            <form>
+              <input
+                name="name"
+                type="text"
+                class="feedback-input"
+                placeholder="Name"
+              />
+              <input
+                name="email"
+                type="text"
+                class="feedback-input"
+                placeholder="Email"
+              />
+              <textarea
+                name="text"
+                class="feedback-input"
+                placeholder="Message"
+              ></textarea>
+              <button type="submit">SUBMIT</button>
+            </form>
           </div>
         </div>
       </div>

@@ -13,19 +13,16 @@ const greeting = {
   title: "Hi all, I'm Arivanantham",
   subTitle:
     "A passionate Front End Developer having an knowledge of building Web applications with JavaScript / Reactjs, and some other cool libraries and frameworks with animations.",
-  resumeLink: "#",
+  resumeLink: "https://drive.google.com/file/d/1Rcz9ksovkSUcEllqmpVR07WKe8_jQgFM/view?usp=sharing",
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
+  github: "https://github.com/Arivanantham98",
+  linkedin: "https://www.linkedin.com/in/arivanantham-parthipan-649665205/",
   gmail: "arivanantham1003@gmail.com",
-  // gitlab: 'https://gitlab.com/saadpasta',
-  // facebook: 'https://www.facebook.com/saad.pasta7',
-  // medium: 'https://medium.com/@saadpasta',
   codepen: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
@@ -34,7 +31,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "< What I do />",
+  title: "< Skills />",
   subTitle: "CRAZY FRONT END DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     "⚡ {Implemented websites, mobile applications, and landing pages from concept through deployment }",
@@ -42,7 +39,7 @@ const skillsSection = {
     "⚡ {Implemented website performance optimization}",
     "⚡ {Built single page application with React.js library}",
     "⚡ {Built reusable code for future use}",
-    "⚡ {Integration of third party services such as Firebase/ Netlify / Heroku}",
+    "⚡ {Integration of third party services such as Netlify / Heroku}",
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -150,7 +147,7 @@ const blogSection = {
 // Podcast Section
 
 const contactInfo = {
-  title: "Contact Me ☎️",
+  title: "< Contact Me ☎️ />",
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91-8220934040",
