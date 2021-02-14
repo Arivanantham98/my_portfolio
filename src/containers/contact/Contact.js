@@ -4,7 +4,6 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {contactInfo } from "../../portfolio";
 import { Fade } from "react-reveal";
 import Contacts from '../../assets/images/newcontact.jpg'
-import { NetlifyForm, Honeypot } from 'react-netlify-forms'
 
 
 export default function Contact() {
@@ -41,18 +40,18 @@ export default function Contact() {
               <input
                 name="name"
                 type="text"
-                class="feedback-input"
+                className="feedback-input"
                 placeholder="Name"
               />
               <input
                 name="email"
                 type="text"
-                class="feedback-input"
+                className="feedback-input"
                 placeholder="Email"
               />
               <textarea
                 name="text"
-                class="feedback-input"
+                className="feedback-input"
                 placeholder="Message"
               ></textarea>
               <button type="submit">SUBMIT</button>

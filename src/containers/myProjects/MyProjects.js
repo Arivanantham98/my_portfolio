@@ -20,12 +20,11 @@ export default function MyProjects() {
             src={sunraysolar}
             alt="sunray solar"
             target="_blank"
-            without
             rel="noopener noreferrer"
           />
 
           <div className="right-side">
-            <h2>Sun Ray Solar Solutions & Consultant</h2>
+            <h2>Sun Ray Solar Solutions and Consultant</h2>
             <p>
               Sunray solar solutions and consultant is a static portfolio
               website built with HTML,CSS,JS and jQuery Plugins, used formspree
@@ -48,7 +47,6 @@ export default function MyProjects() {
             src={cybertechmart}
             alt="sunray solar"
             target="_blank"
-            without
             rel="noopener noreferrer"
           />
 

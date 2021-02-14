@@ -48,10 +48,10 @@
   padding-left: 150px;
 }
 
-.greeting-image-div > img {
+/* .greeting-image-div > img {
   max-width: 100%;
   height: auto;
-}
+} */
 
 .wave-emoji {
   animation-duration: 1.8s;
@@ -111,9 +111,11 @@
   .greeting-main {
     display: block;
   }
-  .animation {
-    width: 320px;
-    padding-left: 50px;
-    margin-bottom: 0;
+ .animation
+ {
+   padding-left: 50px;
+ }
+  .greeting-image-div{
+    width:100%;
   }
 }
