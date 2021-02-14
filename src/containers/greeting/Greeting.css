@@ -42,10 +42,10 @@
   font-size: 30px;
   line-height: 40px;
 }
- 
-.animation{
-width: 70%;
-padding-left: 150px;
+
+.animation {
+  width: 70%;
+  padding-left: 150px;
 }
 
 .greeting-image-div > img {
@@ -111,9 +111,9 @@ padding-left: 150px;
   .greeting-main {
     display: block;
   }
-  .animation{
-    width: 350px;
-padding-left: 50px;
-margin-bottom: 0;
+  .animation {
+    width: 320px;
+    padding-left: 50px;
+    margin-bottom: 0;
   }
 }
