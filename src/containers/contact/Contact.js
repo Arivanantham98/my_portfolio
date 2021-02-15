@@ -1,10 +1,9 @@
 import React from "react";
 import "./Contact.css";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import {contactInfo } from "../../portfolio";
+import { contactInfo } from "../../portfolio";
 import { Fade } from "react-reveal";
-import Contacts from '../../assets/images/newcontact.jpg'
-
+import Contacts from "../../assets/images/newcontact.jpg";
 
 export default function Contact() {
   return (
@@ -13,11 +12,9 @@ export default function Contact() {
         <div className="contact-div-main">
           <div className="contact-header">
             <h1 className="heading contact-title">{contactInfo.title}</h1>
-            <img className='contact-img' src={Contacts} alt='contact'/>
-            <p className={"subTitle contact-subtitle"}>
-              {contactInfo.subtitle}
-            </p>
-            <div className={"contact-text-div"}>
+            <img className="myimage" src={Contacts} alt="myimage"/>
+            <p className="subTitle contact-subtitle">{contactInfo.subtitle}</p>
+            <div className="contact-text-div">
               <a className="contact-detail" href={"tel:" + contactInfo.number}>
                 {contactInfo.number}
               </a>
@@ -31,32 +28,35 @@ export default function Contact() {
               </a>
               <br />
               <br />
-              <  SocialMedia />
+              <SocialMedia />
             </div>
           </div>
-          <div className="form">
-            <form name="contact-from" action="https://formspree.io/f/xeqppnjb" method="POST">
-              <h2 className='dropmail'>Drop a mail!</h2>
-              <input
-                name="name"
-                type="text"
-                className="feedback-input"
-                placeholder="Name"
-              />
-              <input
-                name="email"
-                type="text"
-                className="feedback-input"
-                placeholder="Email"
-              />
-              <textarea
-                name="text"
-                className="feedback-input"
-                placeholder="Message"
-              ></textarea>
-              <button type="submit">SUBMIT</button>
-            </form>
-          </div>
+          <div className="contact-image-div"></div>
+          <form
+            name="contact-from"
+            action="https://formspree.io/f/xeqppnjb"
+            method="POST"
+          >
+            <h2 className="dropmail">Drop a mail!</h2>
+            <input
+              name="name"
+              type="text"
+              className="feedback-input"
+              placeholder="Name"
+            />
+            <input
+              name="email"
+              type="text"
+              className="feedback-input"
+              placeholder="Email"
+            />
+            <textarea
+              name="text"
+              className="feedback-input"
+              placeholder="Message"
+            ></textarea>
+            <button type="submit">SUBMIT</button>
+          </form>
         </div>
       </div>
     </Fade>

@@ -32,4 +32,7 @@ p {
   .project-image {
     width: 90%;
   }
+  .button-pro{
+    padding-bottom: 30px;
+  }
 }

@@ -1,34 +1,12 @@
 .contact-div-main {
   display: flex;
+  flex-direction: row;
 }
 
-.contact-div-main > * {
+/* .contact-div-main > * {
   flex: 1;
-}
-.dropmail {
-  font-size: 30px;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
+} */
 
-.contact-title {
-  padding-bottom: 100px;
-}
-.contact-img {
-  /* /* height: 40%; */
-  object-fit: contain;
-  width: 50%;
-  border-radius: 1px;
-  box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.41);
-  display: flex;
-  margin: auto;
-  margin-bottom: 50px;
-}
-
-form {
-  padding-top: 4rem;
-}
 .contact-detail,
 .contact-detail-email {
   margin-top: 20px;
@@ -44,6 +22,9 @@ form {
   text-shadow: 2px 1px 2px #b5b5b5;
   transition: all 0.3s;
 }
+.dropmail {
+  text-align: center;
+}
 
 .contact-subtitle {
   text-transform: uppercase;
@@ -53,26 +34,42 @@ form {
   margin-top: 1.5rem;
 }
 
-.contact-margin-top {
+/* .contact-margin-top {
   margin-top: 4rem;
-}
-/* 
-/* Media Query */
-@media (max-width: 1380px), (max-width: 768px) {
-  .contact-img {
-    display: flex;
-    margin: auto;
-    width:60%;
-    margin-bottom: 40px;
+} */
 
-  }
+.contact-image-div > img {
+  max-width: 100%;
+  height: auto;
+  /* margin-left: 1.5rem; */
+  margin-top: -4rem;
+}
+.myimage {
+  width: 400px;
+  object-fit: cover;
+  box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.41);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* Media Query */
+@media (max-width: 768px) {
   .contact-div-main {
     display: flex;
     flex-direction: column;
   }
+  .myimage {
+    margin-left: 40px;
+    width: 250px;
+  }
+  /* .contact-title {
+    font-size: 56px;
+    font-weight: 400;
+    text-align: center;
+  } */
+
   .contact-title {
     text-align: center;
-    padding-bottom: 40px;
   }
 
   .contact-subtitle {
@@ -80,33 +77,23 @@ form {
     line-height: normal;
     text-align: center;
   }
-.dropmail{
-  padding-top: 0;
-}
-form{
-  padding-top: 0;
-}
+
   .contact-text-div {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 1.5rem;
   }
 
   .contact-detail,
   .contact-detail-email {
     font-size: 20px;
   }
-  .fromtextupper {
-    margin-bottom: 0;
-  }
-  form {
-    flex-direction: column;
-  }
 }
+
 form {
   max-width: 420px;
   margin: auto;
+  margin-top: 70px;
 }
-
 .feedback-input {
   color: Black;
   font-family: Helvetica, Arial, sans-serif;

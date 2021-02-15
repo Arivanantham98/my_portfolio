@@ -15,8 +15,8 @@ function Header() {
 
   return (
     <Headroom>
-      <header className='header' >
-        <a href='#home' className="logo">
+      <header className="header">
+        <a href="#home" className="logo">
           <span className="grey-color"> &lt;</span>
           <span className="logo-name">{greeting.username}</span>
           <span className="grey-color">/&gt;</span>
@@ -25,26 +25,29 @@ function Header() {
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{ color: 'white' }}
+          style={{ color: "white" }}
         >
-          <span className= 'navicon'></span>
+          <span className="navicon"></span>
         </label>
-        <ul className={ 'menu'}>
+        <ul className={"menu"}>
           {viewSkills && (
             <li>
               <a href="#skills">Skills</a>
             </li>
           )}
-          
+          <li>
+            <a href="#projects">Experiments</a>
+          </li>
+
           {viewBlog && (
             <li>
               <a href="#blogs">Blogs</a>
             </li>
           )}
-          
+
           <li>
             <a href="#contact">Contact Me</a>
-          </li>  
+          </li>
         </ul>
       </header>
     </Headroom>

@@ -1,14 +1,14 @@
-.main {
-  width: 90%;
-  padding: 20px 10px;
-  margin: 0px auto;
-  margin-top: 2rem;
-}
 .greet-main {
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 2rem;
+}
+.main{
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+
 }
 
 .greeting-main {
@@ -45,7 +45,7 @@
 
 .animation {
   width: 70%;
-  padding-left: 150px;
+  margin:auto;
 }
 
 /* .greeting-image-div > img {
@@ -116,6 +116,6 @@
    padding-left: 30px;
  }
   .greeting-image-div{
-    width:120%;
+    width:100%;
   }
 }
